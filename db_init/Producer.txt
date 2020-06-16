@@ -1,0 +1,2 @@
+INSERT INTO `Producer` (`Ssn`, `Producer_ID`)
+	VALUES('235781','14')

@@ -1,0 +1,2 @@
+INSERT INTO `Customer` (`Ssn`, `Phone_Nunber`, `Disability`, `Multichild`, `Name`, `Address`, `Salary`)
+	VALUES('123456', '6981234567', 1, 0, 'John Smith', '123-0ak', 1500)

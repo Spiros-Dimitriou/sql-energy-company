@@ -1,0 +1,2 @@
+INSERT INTO `Consumer` (`Ssn`, `Consumer_ID`)
+	VALUES('123456','102')
