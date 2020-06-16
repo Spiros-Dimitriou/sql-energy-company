@@ -12,24 +12,22 @@ Every month, a consumption measurement is inserted and if they are a producer, t
 Automatically, a bill is generated based on the amount of energy consumed and produced and the percentage of discount they get based on their characteristics (like having disability or multiple children).
 The bill is inserted into the database and is visible through a number of ways.
 
-The app lets you either search, edit, insert and delete some particular data on the
-database. Briefly explained below:
+The app lets you either search, edit, insert and delete some particular data on the database. Briefly explained below:
 
 1) Search for a customer's:
-	1a) Bills
-		1ai) All bills
-		1aii) A single bill
-	1b) Measurements
-		1bi) All measurements
-		1bii) Only production/only consumption measurements
-		1biii) A single measurement
-	1c) Contract
-		1ci) The contract signed with the company
-
-2) Edit a customer's:
-	2a) Measurements
-		2ai) Insert/Overwrite measurement
-	2b) Bills
-		2bi) Delete a bill
-		2bii) Create a bill
-    
+	1a) Bills	
+		1ai) All bills	
+		1aii) A single bill	
+	1b) Measurements	
+		1bi) All measurements	
+		1bii) Only production/only consumption measurements	
+		1biii) A single measurement	
+	1c) Contract	
+		1ci) The contract signed with the company	
+	
+2) Edit a customer's:	
+	2a) Measurements	
+		2ai) Insert/Overwrite measurement	
+	2b) Bills	
+		2bi) Delete a bill	
+		2bii) Create a bill	
