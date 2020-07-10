@@ -1,6 +1,8 @@
 README file for EnergySystem.py
-Konstantinos 	Sekaras		1046888
-Spiridon		Dimitriou	1050506
+
+Application made by:
+Konstantinos Sekaras
+Spiros Dimitriou
 
 In order for the EnergySystem.py application to run successfully the system must have:
 1) python ^3.8 interpreter installed
