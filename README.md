@@ -1,7 +1,9 @@
 # sql-energy-company
-SQL database control for a company managing energy consumers and producers
+#### SQL database control for a company managing energy consumers and producers
 
-This project is a collaboration with Konstantinos Sekaras. We both worked many hours for this.
+#### This project is a collaboration with Konstantinos Sekaras. We both worked many months for this.
+
+### Description
 
 SQL managing application using pymysql for a company that stores customer details, bills, information about measurements and contracts signed with the customers.
 The safety of the data is not taken into account here, only the careful modeling of the db and some basic interface.
@@ -12,22 +14,24 @@ Every month, a consumption measurement is inserted and if they are a producer, t
 Automatically, a bill is generated based on the amount of energy consumed and produced and the percentage of discount they get based on their characteristics (like having disability or multiple children).
 The bill is inserted into the database and is visible through a number of ways.
 
+### Functionality
+
 The app lets you either search, edit, insert and delete some particular data on the database. Briefly explained below:
 
-1) Search for a customer's:
-	1a) Bills	
-		1ai) All bills	
-		1aii) A single bill	
-	1b) Measurements	
-		1bi) All measurements	
-		1bii) Only production/only consumption measurements	
-		1biii) A single measurement	
-	1c) Contract	
-		1ci) The contract signed with the company	
+- Search for a customer's:
+   - Bills	
+     - All bills	
+     - A single bill	
+   - Measurements	
+      - All measurements	
+      - Only production/only consumption measurements	
+      - A single measurement	
+    - Contract	
+      - The contract signed with the company	
 	
-2) Edit a customer's:	
-	2a) Measurements	
-		2ai) Insert/Overwrite measurement	
-	2b) Bills	
-		2bi) Delete a bill	
-		2bii) Create a bill	
+- Edit a customer's:	
+  - Measurements	
+    - Insert/Overwrite measurement	
+  - Bills	
+    - Delete a bill	
+    - Create a bill	
