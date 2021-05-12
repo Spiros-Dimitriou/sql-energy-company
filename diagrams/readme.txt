@@ -1,2 +1,2 @@
-Entity Relation diagram made with ERD Plus
-Relation diagram made with DB Designer
+Entity Relation diagram made with ERD Plus (greek)
+Relation diagram made with DB Designer (english)
