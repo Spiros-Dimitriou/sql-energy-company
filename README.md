@@ -6,8 +6,7 @@
 ### Description
 
 SQL managing application using pymysql for a company that stores customer details, bills, information about measurements and contracts signed with the customers.
-The safety of the data is not taken into account here, only the careful modeling of the db and some basic interface.
-The Entity-Relationship diagram is in Greek, I'll update it when I get some time. The Relation diagram although is more than enough to understand the modeling.
+The safety of the data is not taken into account here, only the careful modeling of the db and some basic interface. Entity relationship diagram and Relation Diagram are used to design the database. 
 
 Each customer is a consumer and can be a producer as well.
 Every month, a consumption measurement is inserted and if they are a producer, then a production measurement as well.
